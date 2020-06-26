@@ -13,7 +13,7 @@ import { ApolloClient } from 'apollo-client'
 
 // Apollo setup
 const httpLink = createHttpLink({
-  uri: 'https://graphql.org/swapi-graphql/'
+  uri: 'https://graphql-pokemon.now.sh/'
 })
 
 // Cache implementation

@@ -21,7 +21,7 @@
     "vue": "^2.6.11",
     "vue-apollo": "^3.0.3",
     "vue-class-component": "^7.2.3",
-    "vue-golden-layout": "^2.0.9",
+    "vue-golden-layout": "harryjubb/vue-golden-layout#vue-apollo-compat",
     "vue-property-decorator": "^9.0.0",
     "vue-router": "^3.2.0",
     "vuex": "^3.4.0"
