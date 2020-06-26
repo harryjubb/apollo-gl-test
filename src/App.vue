@@ -3,7 +3,7 @@
     <golden-layout
       class="goldenlayout"
     >
-      <gl-row>
+      <!-- <gl-row>
         <gl-component title="component1">
           <h1>Component 1</h1>
         </gl-component>
@@ -15,30 +15,10 @@
             <h1>Component 3</h1>
           </gl-component>
         </gl-stack>
-      </gl-row>
+      </gl-row> -->
     </golden-layout>
   </div>
 </template>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
-}
 </style>

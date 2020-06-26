@@ -3,7 +3,7 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 
-import vgl from 'vue-golden-layout'
+import vgl from 'vue-golden-layout/src'
 import 'golden-layout/src/css/goldenlayout-light-theme.css'
 
 import VueApollo from 'vue-apollo'
@@ -35,8 +35,8 @@ const apolloProvider = new VueApollo({
 Vue.config.productionTip = false
 
 new Vue({
+  apolloProvider,
   router,
   store,
-  apolloProvider,
   render: h => h(App)
 }).$mount('#app')
